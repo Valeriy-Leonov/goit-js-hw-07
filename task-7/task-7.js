@@ -1,9 +1,6 @@
-// Write code under this line
-const calculateTotalBalance = array =>
-  array.reduce((accumulator, { balance }) => {
-    accumulator += balance;
-    return accumulator;
-  }, 0);
-
-// console.log(calculateTotalBalance(users));
-// 20916
+const inputEl = document.querySelector('#font-size-control');
+const textEl = document.querySelector('#text');
+inputEl.addEventListener('input', event => {
+  const value = event.target.value;
+  textEl.style.fontSize = value + 'px';
+});
