@@ -1,4 +1,4 @@
-const numberEl = document.querySelector('input');
+const numberEl = document.querySelector('[type="number"]');
 const createBtn = document.querySelector('[data-action="render"]');
 const clearBtn = document.querySelector('[data-action="destroy"]');
 const boxEl = document.querySelector('#boxes');
